@@ -14,7 +14,6 @@ from pip._internal import main as pipmain
 pipmain(['install', 'pip'])
 pipmain(['install', 'tensorflow'])
 pipmain(['install', 'tensorflow-hub'])
-pipmain(['install', 'tensorlayer'])
 pipmain(['install', 'numpy'])
 pipmain(['install', 'matplotlib'])
 pipmain(['install', 'seaborn'])
@@ -50,7 +49,7 @@ def embed(input):
 #-------------------------------------------------------------------------------------------------#
 # The Heatmap displays the correlation between each value. This correlation is found as by
 # calculating the angular differences between each embedded vector. This is a classification
-# method suggested by the creators of Universal Sentence Encoder (USE) published by Google.
+# method suggested by the creators of Universal Sentence Encoder (USE) published by Google.p
 #-------------------------------------------------------------------------------------------------#
 
 def plot_similarity(labels, features, rotation):
